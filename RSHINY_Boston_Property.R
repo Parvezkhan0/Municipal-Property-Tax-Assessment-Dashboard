@@ -144,7 +144,6 @@ mainPanel(
 )
 
 
-
 # Define server function required to create the scatterplot
 server <- function(input, output) {
   
@@ -262,6 +261,3 @@ shinyApp(ui = ui, server = server)
 #abline(lm(AV_LAND~GROSS_TAX))
 # Create a Shiny app object
 #shinyApp(ui = ui, server = server)
-
-
-
