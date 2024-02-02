@@ -4,7 +4,6 @@ library(ggplot2)
 library(dplyr)
 library(plotly)
 
-
 options(scipen=8)
 
 #datacleaning
@@ -143,10 +142,6 @@ mainPanel(
 )
 )
 )
-
-
-
-
 
 
 
