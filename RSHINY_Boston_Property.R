@@ -38,7 +38,6 @@ prop_clean1 <- subset8
 correlation <- round(cor(prop_clean1), 3)
 nms <- names(prop_clean1)
 
-#data_clean <- read.csv("C:\Users\HP\Documents\property.csv")
 
 # Define UI for application inspecting Boston property values
 ui <- fluidPage(
